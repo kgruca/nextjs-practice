@@ -11,7 +11,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <header title="Develop. Preview. Ship. 🚀" />
+      <Header title="Develop. Preview. Ship. 🚀" />
       <ul>
         {names.map((name) => (
           <li key="{name}">{name}</li>
@@ -22,3 +22,5 @@ const HomePage = () => {
     </div>
   );
 };
+
+export default HomePage;
